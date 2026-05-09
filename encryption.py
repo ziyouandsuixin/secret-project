@@ -25,3 +25,5 @@ if __name__ == "__main__":
     test = "核心配置参数: API_KEY=sk-abc123"
     encrypted = XOR_Encrypt_Internal.encrypt(test)
     print(f"加密结果: {encrypted}")
+    
+# 2024-04-20 新增功能: 支持配置文件
